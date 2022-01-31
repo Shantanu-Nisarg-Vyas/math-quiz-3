@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Guess The Word</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h4 id="p1_name_pts"></h4> <span id="p1_pts"> </span>
+	<br>
+	<h4 id="p2_name_pts"></h4> <span id="p2_pts"> </span>
+<div class="container">
+	<center>
+		<h2 style="color: rgb(104, 105, 18);">Guess The Word!</h2>
+		<h3 id="player_q_turn"> </h3>
+		<h3 id="player_a_turn"> </h3>
+		<div id="question" class="col-lg-4 col-md-6 col-sm-8 col-xs-12"> </div>
+		<br><br>
+		<label>Send Your Opponent Word: <b style="color: rgb(255, 0, 0)">Try putting word which has more alphabets</b></label>
+		<input id="word_input" type="text" placeholder="Enter any Word" class="form-control col-lg-4 col-md-6 col-sm-8 col-xs-12">
+		<button class="btn btn-info" onclick="submitword()"> Submit word </button>
+		<br>
+	</center>
+</div>
+
+<script src="main2.js"></script>
+</body>
+</html>

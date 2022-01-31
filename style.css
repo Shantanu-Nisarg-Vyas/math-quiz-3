@@ -1,0 +1,39 @@
+body {
+	background: greenyellow;
+}
+
+.login_1 {
+	background: cyan;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+.login_2 {
+	background: red;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+#p1_name , #p2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word_input {
+	text-align: center;
+}
+
+#word_display {
+	letter-spacing: 5px;
+}
+
+#question {
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
